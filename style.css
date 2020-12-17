@@ -1,5 +1,25 @@
 /*  index/about me*/
 
+h1.ABHeader {
+    color: darkolivegreen;
+}
+
+main.wrapper {
+  
+}
+
+main {
+    background-color: beige;
+}
+img.ResponseImg {
+    height: 150px;
+    width: 150px;
+    float:left
+    
+}
+p.ABLorem {
+    float: left;
+}
 
 
 
