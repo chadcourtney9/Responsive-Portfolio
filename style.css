@@ -1,28 +1,32 @@
 /*  index/about me*/
 
-h1.ABHeader {
-    color: darkolivegreen;
+.container {
+    margin-top: 5%;
 }
 
-main.wrapper {
-  
+h1.ABHeader {
+    color: darkolivegreen;
 }
 
 main {
     background-color: beige;
 }
+
 img.ResponseImg {
-    height: 150px;
-    width: 150px;
-    float:left
+    display:block
     
 }
+
 p.ABLorem {
     float: left;
 }
 
+.footer {
+    background-color: rgb(63, 31, 19);
+}
 
 
+@media screen and (max-width 768px)
 
 
 
