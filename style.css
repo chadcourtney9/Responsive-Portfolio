@@ -26,7 +26,6 @@ body, html {
 
 .container {
     position: relative; top: 30%;
-    flex-flow: column wrap;
 }
 
 h1.ABHeader {
@@ -34,10 +33,11 @@ h1.ABHeader {
     color: #AA96DA;
     border-bottom: #c5fad5; 
     border-bottom-style: solid;
-    border-width: 10px;
-    margin: 0 auto;
-    content: "";
-    
+    border-width: 10px;   
+}
+
+.aboutmeimg {
+    float: left;
 }
 
 main {
@@ -52,8 +52,9 @@ div.portcont {
     border: 10px;
 }
 
+/* 1400 576*/
 /* large */
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
     body {
         background-color: purple;
     }
@@ -64,7 +65,7 @@ div.portcont {
         height: auto;  
 }
 /* medium */
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
     .portimgs {
         margin: 10px 10px 10px 10px;
         padding: 10px 10px 10px 10px;
@@ -79,4 +80,11 @@ div.portcont {
     padding: 10px 10px 10px 10px;
     max-width: 100%;
     height: auto;
+}
+/* x-small */
+@media (max-width: 500px;) {
+    .ABimg{
+        img-fluid 
+    }
+    
 }
