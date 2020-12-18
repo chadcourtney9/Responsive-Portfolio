@@ -17,11 +17,8 @@ html {
 h1 {
   text-align: center;
 }
-.container-fluid {
-  position: relative;
-}
+.container {
+    background-color: #b0b1e2;
+    position: relative;
+    top: 30%;
 
-img {
-  max-width: 250px;
-  max-height: 250px;
-}
