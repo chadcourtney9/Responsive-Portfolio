@@ -23,6 +23,7 @@ html {
 
 .container {
   background-color: #b0b1e2;
+  /* attempt to keep container in center of page */
   position: relative;
   top: 30%;
 }
@@ -39,4 +40,9 @@ h1.ABHeader {
   border-radius: 50%;
   margin-right: 10%;
   float: left;
+}
+
+/* Contact Page*/
+.btn-primary {
+  color: #c5fad5;
 }

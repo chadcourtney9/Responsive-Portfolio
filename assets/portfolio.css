@@ -17,8 +17,8 @@ html {
 h1 {
   text-align: center;
 }
+/*my attempt at keeping Mike happy by having container centered */
 .container {
     background-color: #b0b1e2;
     position: relative;
     top: 30%;
-
