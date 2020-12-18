@@ -1,4 +1,20 @@
 /*  index/about me*/
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("./assets/purple-lavender-field.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .big-banner {
     background-image: url(./assets/purple-lavender-field.jpg);
@@ -6,17 +22,24 @@
 }
 
 .container {
-    margin-top: 5%;
+    position: relative; top: 30%;
     flex-flow: column wrap;
 }
 
 h1.ABHeader {
-    color: lavenderblush;
+    text-align: center;
+    color: #AA96DA;
+    border-bottom: #c5fad5; 
+    border-bottom-style: solid;
+    border-width: 10px;
+    margin: 0 auto;
+    content: "";
+    
 }
 
 main {
-    background-color: lightcoral;
-    -webkit-backdrop-filter: opacity(50%);
+    background-color: #FFFFD2;
+    background: opacity(50%);
 }
 .aboutmeimg {
     border-radius: 50%;
@@ -27,7 +50,7 @@ div.portcont {
 }
 }
 /* large */
-@media and screen (max-width: 1200px) {
+@media (max-width: 1200px) {
     body {
         background-color: purple;
     }
@@ -38,7 +61,7 @@ div.portcont {
         height: auto;  
 }
 /* medium */
-@media screen (max-width: 992px) {
+@media (max-width: 992px) {
     .portimgs {
         margin: 10px 10px 10px 10px;
         padding: 10px 10px 10px 10px;
@@ -46,7 +69,7 @@ div.portcont {
         height: auto;
 }
 /* small */
-@media screen (max-width: 768px ;) {}
+@media (max-width: 768px) {}
 
 .portimgs {
     margin: 10px 10px 10px 10px;
