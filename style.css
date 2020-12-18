@@ -1,8 +1,7 @@
-/*  index/about me*/
 body, html {
     height: 100%;
   }
-  
+
   .bg {
     /* The image used */
     background-image: url("./assets/purple-lavender-field.jpg");
@@ -15,6 +14,10 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.navbar-custom {
+    background-color: #c5fad5;
+}
 
 .big-banner {
     background-image: url(./assets/purple-lavender-field.jpg);
@@ -48,7 +51,7 @@ main {
 div.portcont {
     border: 10px;
 }
-}
+
 /* large */
 @media (max-width: 1200px) {
     body {
@@ -69,12 +72,11 @@ div.portcont {
         height: auto;
 }
 /* small */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
 
 .portimgs {
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
     max-width: 100%;
     height: auto;
-  
 }
