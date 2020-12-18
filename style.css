@@ -16,6 +16,10 @@ h1.ABHeader {
 
 main {
     background-color: lightcoral;
+    -webkit-backdrop-filter: opacity(50%);
+}
+.aboutmeimg {
+    border-radius: 50%;
 }
 
 div.portcont {
