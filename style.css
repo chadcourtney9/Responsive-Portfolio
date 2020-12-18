@@ -37,20 +37,33 @@ h1.ABHeader {
 }
 
 .aboutmeimg {
+    border-radius: 50%;
+    margin-right: 10%;
     float: left;
+}
+.aboutmetxt {
+    margin-left: 100px;
 }
 
 main {
     background-color: #FFFFD2;
     background: opacity(50%);
 }
-.aboutmeimg {
-    border-radius: 50%;
-}
+
 
 div.portcont {
-    border: 10px;
+    border: 10px;  
 }
+.portimg2, .portimg3, .portimg4, .portimg5 {
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    padding-bottom: 16px;
+    padding-right: 8px;
+    padding-left: 8px;;
+
+}
+
 
 /* 1400 576*/
 /* large */
@@ -82,9 +95,8 @@ div.portcont {
     height: auto;
 }
 /* x-small */
-@media (max-width: 500px;) {
+@media (max-width: 500px) {
     .ABimg{
         img-fluid 
     }
-    
 }
