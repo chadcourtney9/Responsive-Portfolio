@@ -1,5 +1,10 @@
 /*  index/about me*/
 
+.big-banner {
+    background-image: url(./assets/purple-lavender-field.jpg);
+    background-size: 100%;
+}
+
 .container {
     margin-top: 5%;
     flex-flow: column wrap;
