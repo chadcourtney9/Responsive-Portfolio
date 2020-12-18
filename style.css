@@ -2,35 +2,47 @@
 
 .container {
     margin-top: 5%;
+    flex-flow: column wrap;
 }
 
 h1.ABHeader {
-    color: darkolivegreen;
+    color: lavenderblush;
 }
 
 main {
-    background-color: beige;
+    background-color: lightcoral;
 }
 
-img.ResponseImg {  
-    float:left;
+div.portcont {
+    border: 10px;
 }
-
-p.text {
-    
-    text-align: justify;
 }
-
-.footer {
-    background-color: rgb(63, 31, 19);
+/* large */
+@media and screen (max-width: 1200px) {
+    body {
+        background-color: purple;
+    }
+    .portimgs {
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        max-width: 100%;
+        height: auto;  
 }
-
-.form-control{
-    width:500px;
-    margin: auto;
+/* medium */
+@media screen (max-width: 992px) {
+    .portimgs {
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        max-width: 100%;
+        height: auto;
 }
-input#message {
-    height: 100px;
+/* small */
+@media screen (max-width: 768px ;) {}
 
+.portimgs {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    height: auto;
+  
 }
-
