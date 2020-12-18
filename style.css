@@ -1,102 +1,46 @@
-body, html {
-    height: 100%;
-  }
+body,
+html {
+  height: 100%;
+}
 
-  .bg {
-    /* The image used */
-    background-image: url("./assets/purple-lavender-field.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.bg {
+  /* The image used */
+  background-image: url("./assets/purple-lavender-field.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .navbar-custom {
-    background-color: #c5fad5;
+  background-color: #c5fad5;
 }
 
 .big-banner {
-    background-image: url(./assets/purple-lavender-field.jpg);
-    background-size: 100%;
+  background-image: url(./assets/purple-lavender-field.jpg);
+  background-size: 100%;
 }
 
 .container {
-    position: relative; top: 30%;
+  background-color: ivory;
+  position: relative;
+  top: 30%;
 }
 
 h1.ABHeader {
-    text-align: center;
-    color: #AA96DA;
-    border-bottom: #c5fad5; 
-    border-bottom-style: solid;
-    border-width: 10px;   
+  text-align: center;
+  color: #aa96da;
+  border-bottom: #c5fad5;
+  border-bottom-style: solid;
+  border-width: 10px;
 }
 
 .aboutmeimg {
-    border-radius: 50%;
-    margin-right: 10%;
-    float: left;
-}
-.aboutmetxt {
-    margin-left: 100px;
-}
-
-main {
-    background-color: #FFFFD2;
-    background: opacity(50%);
-}
-
-
-div.portcont {
-    border: 10px;  
-}
-.portimg2, .portimg3, .portimg4, .portimg5 {
-    height: 350px;
-    width: 350px;
-    overflow: hidden;
-    padding-bottom: 16px;
-    padding-right: 8px;
-    padding-left: 8px;;
-
-}
-
-
-/* 1400 576*/
-/* large */
-@media (max-width: 1440px) {
-    body {
-        background-color: purple;
-    }
-    .portimgs {
-        margin: 10px 10px 10px 10px;
-        padding: 10px 10px 10px 10px;
-        max-width: 100%;
-        height: auto;  
-}
-/* medium */
-@media (max-width: 1000px) {
-    .portimgs {
-        margin: 10px 10px 10px 10px;
-        padding: 10px 10px 10px 10px;
-        max-width: 100%;
-        height: auto;
-}
-/* small */
-@media (max-width: 768px) {
-
-.portimgs {
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    max-width: 100%;
-    height: auto;
-}
-/* x-small */
-@media (max-width: 500px) {
-    .ABimg{
-        img-fluid 
-    }
+  border-radius: 50%;
+  margin-right: 10%;
+  float: left;
 }
