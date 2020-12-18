@@ -19,6 +19,10 @@ h1 {
 }
 /*my attempt at keeping Mike happy by having container centered */
 .container {
-    background-color: #b0b1e2;
-    position: relative;
-    top: 30%;
+  background-color: #b0b1e2;
+  position: relative;
+  top: 30%;
+}
+.footer {
+  text-align: center;
+}
