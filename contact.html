@@ -4,36 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Cache-control" content="public">
-        <title>About Me</title>
+        <title>Contact</title>
         <link href="./assets/style.css" rel="stylesheet" type="text/css">
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-</head>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Armata&family=Audiowide&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <!-- Materialize -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      </head>
 <body>
   <!--Start of navbar-->
   <header></header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Chad Courtney</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav>
+    <div class="nav-wrapper deep-purple accent-1">
+      <a href="./index.html" class="brand-logo right">Chad Courtney</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./index.html">About Me</a></li>
+      </ul>
+    </div>
+  </nav>
       <!--End of Navbar-->
     <!--Lavender Background img-->
     <div class="bg">
@@ -52,7 +45,7 @@
           <textarea class="form-control" id="Message" rows="3" placeholder="Message"></textarea>
         </div>
         <div>
-          <button type="button" class="btn btn-outline-dark">Submit</button>
+          <a class="waves-effect purple accent-2 btn">Send <i class="far fa-paper-plane"></i></a>
         </div>
       </div>
     </div>
@@ -60,10 +53,12 @@
     <footer>
       <div class="container footer">
         <span>
-          <a href="https://github.com/chadcourtney9" rel="noopener" target="_blank">Github</a>
-          <a href="https://www.linkedin.com/in/chad-courtney-7951721ba/" target="_blank" rel="noopener">LinkedIn</a>
+          <p><a href="https://github.com/chadcourtney9" rel="noopener" target="_blank"> <i class="fab fa-github-square"></i>Github</a></p>
+          <p><a href="https://www.linkedin.com/in/chad-courtney-7951721ba/" target="_blank" rel="noopener">LinkedIn</a></p>
         </span>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>     
+
 </body>
 </html>
