@@ -13,20 +13,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Armata&family=Audiowide&family=Press+Start+2P&display=swap" rel="stylesheet">
         <!-- Materialize  -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Jquery cdn -->
+       <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       </head>
 
 <body>
   <!--Start of Nav-->
   <nav>
-    <div class="nav-wrapper deep-purple accent-1">
-      <a href="./index.html" class="brand-logo right">Chad Courtney</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
+    <div class="nav-wrapper light-blue darken-4">
+      <a href="#!" class="brand-logo">Chad C.</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+      <ul class="right hide-on-med-and-down">
         <li><a href="./contact.html">Contact</a></li>
         <li><a href="./portfolio.html">Portfolio</a></li>
         <li><a href="./index.html">About Me</a></li>
       </ul>
     </div>
   </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="./contact.html">Contact</a></li>
+    <li><a href="./portfolio.html">Portfolio</a></li>
+    <li><a href="./index.html">About Me</a></li>
+  </ul>
   <!--End of Nav-->
       <!--Lavender Background img-->
       <div class="bg">
@@ -35,28 +44,29 @@
       <main class="container">
         <div class="row">
           <h3 class="col s12" class="portHeader">Portfolio</h3>
-          <div class="col s4">
+          <div class="col s12 m12 prjOneDesc">
+            <p class="projectOne">This is my first project named Surprise Me-al. See the deployed link <a href="https://tjvig94.github.io/random-meal-generator/">here</a>. Also here is a link to my <a href="https://github.com/chadcourtney9?tab=repositories">repositories</a>.</p>
+          </div>
+          <div class="col s12 m6">
             <img src="./assets/images/projectGif1.gif"alt="gif of first project">
           </div>
-          <div class="col s3">
-
-          </div>
-          <div class="col s4">
+      
+          <div class="col s12 m6">
             <img src="./assets/images/projectGif2.gif" alt="gif of first project">
           </div>
-<!--         
-          <div class="col s3">
+         <div class="rpgDesc">This is a random password generator that you can select what characters are used within the password. See the deployed page <a href="https://chadcourtney9.github.io/Random-Password-Gen/">here</a>.</div>
+          <div class="col s12 m6">
+            <img class="rpgImg" src="./assets/images/randompassword gen.PNG" alt="random password generator">
+          </div>
+      
+          <!-- <div class="col s3" >
             <img src="./assets/images/placeholders/250.png" alt="placeholder">
           </div>
       
           <div class="col s3" >
             <img src="./assets/images/placeholders/250.png" alt="placeholder">
-          </div>
-      
-          <div class="col s3" >
-            <img src="./assets/images/placeholders/250.png" alt="placeholder">
-          </div> -->
-        
+          </div> 
+         -->
        </main>
        <!--End of portfolio-->
   </div>
@@ -71,5 +81,6 @@
   </footer>
   <!--End of footer-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>     
+  <script src="./assets/script.js"></script>
 </body>
 </html>
