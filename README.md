@@ -2,7 +2,7 @@ Portfolio Project
 
 # Overview of Project
 
-This project was to make a responsive portfolio page to work on devices of multiple sizes. I used Bootstrap to help with a lot of the lay out of the pages. Hoping to have stuff to add to my portfolio soon to show off my work!
+This project was to make a responsive portfolio page to work on devices of multiple sizes. I used materialize, fontawesome and google fonts to help with a lot of the lay out of the pages. Just a few beginner projects added so far! Looking to add a lot more in the future!
 
 <a href="https://chadcourtney9.github.io/Responsive-Portfolio/index.html" target="_blank">See deployed page here </a>
 
@@ -13,6 +13,14 @@ This project was to make a responsive portfolio page to work on devices of multi
 # Mobile View
 
 ![img of mobile version](https://github.com/chadcourtney9/Responsive-Portfolio/blob/main/assets/images/mobile%20view.PNG)
+
+### Contact me
+
+Feel free to reach out to me on here! Or these other places below!
+
+Email: ChadCourtney567@gmail.com ||
+[LinkedIn](https://www.linkedin.com/in/chad-courtney-7951721ba/)
+
 
 ### Licenses 
 
