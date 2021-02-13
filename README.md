@@ -16,7 +16,7 @@ This project was to make a responsive portfolio page to work on devices of multi
 
 # Standard cropped view
 
-![img of standard view]()
+![img of standard view](https://github.com/chadcourtney9/Responsive-Portfolio/blob/main/assets/images/portfullsize.PNG)
 
 ### Contact me
 
