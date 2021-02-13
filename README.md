@@ -14,6 +14,10 @@ This project was to make a responsive portfolio page to work on devices of multi
 
 ![img of mobile version](https://github.com/chadcourtney9/Responsive-Portfolio/blob/main/assets/images/mobile%20view.PNG)
 
+# Standard cropped view
+
+![img of standard view]()
+
 ### Contact me
 
 Feel free to reach out to me on here! Or these other places below!
