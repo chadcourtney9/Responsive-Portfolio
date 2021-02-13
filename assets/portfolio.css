@@ -15,7 +15,7 @@ html {
   top: 30%;
   align-items: center;
 }
-.prjOneDesc, .rpgDesc {
+.prjOneDesc, .rpgDesc, .dpDesc {
   text-align: center;
 }
 .img {
@@ -23,10 +23,9 @@ html {
   height: 300px;
   margin-bottom: 15px;
 }
-.rpgImg {
+.rpgImg, .dpImg {
   width: 500px;
   height: 300px;
-  align-items: center;
 }
 
 .footer {
