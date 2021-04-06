@@ -55,6 +55,10 @@ img, .amImg{
   cursor: pointer;
   color: lightblue;
 }
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
 
 @media only screen and (min-width: 993px){
   nav a.button-collapse {
