@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Cache-control" content="public">
         <title>Portfolio</title>
-        <link href="./assets/portfolio.css" rel="stylesheet" type="text/css">
+        <!-- css files -->
+        <link href="./assets/css/portfolio.css" rel="stylesheet" type="text/css">
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <!-- Google Fonts -->
@@ -43,26 +44,70 @@
        
       <main class="container">
         <div class="row">
+
           <h3 class="col s12" class="portHeader">Portfolio</h3>
-          <div class="col s12 m12 prjOneDesc">
-            <p class="projectOne">This is my first project named Surprise Me-al. See the deployed link <a href="https://tjvig94.github.io/random-meal-generator/">here</a>. Also here is a link to my <a href="https://github.com/chadcourtney9?tab=repositories">repositories</a>.</p>
+          <div class="astrodivider col s12"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+          <p class="projectOne center-align">This is my first project named Surprise Me-al. See the deployed link <a href="https://tjvig94.github.io/random-meal-generator/">here</a>. Also here is a link to my <a href="https://github.com/chadcourtney9?tab=repositories">repositories</a>.</p>
+          <div class="slider col">
+            <ul class="slides">
+              <li>
+                <img src="./assets/images/projectGif1.gif"alt="gif of first project">
+                <div class="caption center-align">
+
+                </div>
+              </li>
+              <li>
+                <img src="./assets/images/projectGif2.gif" alt="gif of first project">
+                <div class="caption left-align">
+
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="col s12 m6">
-            <img src="./assets/images/projectGif1.gif"alt="gif of first project">
-          </div>
-      
-          <div class="col s12 m6">
-            <img src="./assets/images/projectGif2.gif" alt="gif of first project">
-          </div>
-         <div class="rpgDesc">This is a random password generator that you can select what characters are used within the password. See the deployed page <a href="https://chadcourtney9.github.io/Random-Password-Gen/">here</a>.</div>
+
+
+          <div class="astrodivider col s12"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+
+          <div class="slider col">
+            <ul class="slides">
+              <li>
+                <img class="img-responsive" src="./assets/images/login page.PNG" alt="log in page image" > 
+                <div class="caption center-align">
+                  <h3 class="slider-text"></h3>
+                  <h5 class="light grey-text text-lighten-3 slider-text">Here's our log in page.</h5>
+                </div>
+              </li>
+              <li>
+                <img class="img-responsive" src="./assets/images/dndviewchar.PNG" alt="view characters page" > 
+                <div class="caption left-align">
+                  <h3 class="slider-text">View Characters Page</h3>
+                  <h5 class="light grey-text text-lighten-3 slider-text">Here's our view characters page, this allows you to refer back to older characters you may have made for previous campaigns.</h5>
+                </div>
+              </li>
+              <li>
+                <img class="img-responsive" src="./assets/images/d&dcharacterpage.PNG" alt="selected character view page" > 
+              </div>
+            <p class="project2info m5">For our second project we went with creating an express Dungeons and Dragons character creator. Creating a character for this table top game can take quite a while if you haven't done it before, so we made this app to help new players get into the game without having to spend a lot of time thinking about their character and just getting right into the game with their friends! See the deployed page <a href="https://character-creator-express.herokuapp.com/"> here! </a>
+            </p>
+
+          <div class="astrodivider col s12">
+            <div class="astrodividermask">
+            </div>
+            <span><i>&#10038;</i></span></div>
+
+         <div class="rpgDesc center-align">This is a random password generator that you can select what characters are used within the password. See the deployed page <a href="https://chadcourtney9.github.io/Random-Password-Gen/">here</a>.</div>
           <div class="col s12 m12">
             <img class="rpgImg" src="./assets/images/randompassword gen.PNG" alt="random password generator">
           </div>
+
+          <div class="astrodivider col s12"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+
           <div class="dpDesc">This was a simple task of creating a daily planner for the average work day. It allows you to save tasks you have created throughout the day and save those tasks locally and refer back to them when needed. See the deployed page <a href="https://chadcourtney9.github.io/Daily-Planner/">here</a>.</div>
-          <div class="col s12 m6" >
+          
+          <div class="col s12 m12" >
             <img class="dpImg" src="./assets/images/page-image-layout.PNG" alt="daily planner">
           </div>
-
+        </div>
        </main>
        <!--End of portfolio-->
   </div>
@@ -77,6 +122,6 @@
   </footer>
   <!--End of footer-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>     
-  <script src="./assets/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
