@@ -18,6 +18,10 @@ This project was to make a responsive portfolio page to work on devices of multi
 
 ![img of standard view](https://github.com/chadcourtney9/Responsive-Portfolio/blob/main/assets/images/portnoncropped.PNG)
 
+# Technologies
+- Materialize
+- Jquery
+
 ### Contact me
 
 Feel free to reach out to me on here! Or these other places below!
