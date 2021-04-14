@@ -1,10 +1,5 @@
 
 $(document).ready(function () {
-    $('.sidenav').sidenav();
-});
-
-
-$(document).ready(function () {
 
     $('.slider').slider({
         full_width: true,
@@ -12,4 +7,8 @@ $(document).ready(function () {
         interval: 5000
     });
 
+    $(".dropdown-trigger").dropdown();
+
+    $('.sidenav').sidenav();
 });
+
